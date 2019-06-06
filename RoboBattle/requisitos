@@ -1,0 +1,20 @@
+
+* criar 10 lutadores com nome
+
+* variar o balanceamento dos danos de acordo com o lutador
+
+* criar turnos de lutas com opção de escolha dos lutadores, até que haja um vencedor
+
+* restaurar a vida do lutador vencedor, a cada rodada
+
+* raking de lutadores
+
+* implementar a faixa de campeão, que pode ser repassada a cada campeonato
+
+* criar um arquivo para salvar o ranking atual
+
+* opção de iniciar um novo campeonato, sem ter que sair do jogo
+
+
+
+

@@ -5,12 +5,12 @@ import java.util.Random;
 import br.ifb.tsi.poo.robo.modelo.habilidades.GeradorDeHabilidade;
 import br.ifb.tsi.poo.robo.modelo.habilidades.Habilidade;
 
-public class GeradorDeHabilidadeAleatória implements GeradorDeHabilidade{
+public class GeradorDeHabilidadeAleatoria implements GeradorDeHabilidade{
 
 	private Habilidade[] habilidades;
 	private int qtde;
 	
-	public GeradorDeHabilidadeAleatória() {
+	public GeradorDeHabilidadeAleatoria() {
 		super();
 		this.qtde = 1;
 		this.habilidades = new Habilidade[qtde];
