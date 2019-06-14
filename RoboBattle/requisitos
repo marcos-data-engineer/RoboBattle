@@ -1,19 +1,19 @@
 
-* criar 10 lutadores com nome
+* criar um campeonato com 10 lutadores com nome ambientado em rôbos existentes
 
-* variar o balanceamento dos danos de acordo com o lutador
+* variar o balanceamento das habilidades de acordo com cada robo
 
 * criar turnos de lutas com opção de escolha dos lutadores, até que haja um vencedor
 
+* um mesmo lutador não pode lutar por duas vezes seguidas
+
 * restaurar a vida do lutador vencedor, a cada rodada
 
-* raking de lutadores
+* raking de lutadores durante o campeonato
 
-* implementar a faixa de campeão, que pode ser repassada a cada campeonato
+* implementar a faixa de campeão, que pode mudar de dono a cada campeonato
 
-* criar um arquivo para salvar o ranking atual
-
-* opção de iniciar um novo campeonato, sem ter que sair do jogo
+* opção de iniciar um novo campeonato, sem ter que sair do jogo atual
 
 
 
