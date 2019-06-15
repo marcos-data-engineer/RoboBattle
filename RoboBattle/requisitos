@@ -1,7 +1,9 @@
 
-* criar um campeonato com 10 lutadores com nome ambientado em rôbos existentes
+* criar um campeonato com 10 lutadores com nome ambientado em robôs existentes
 
-* variar o balanceamento das habilidades de acordo com cada robo
+* os lutadores deverão lutar de forma autônoma, ou seja, sem a interferência do usuário
+
+* variar o balanceamento das habilidades de acordo com cada robô
 
 * criar turnos de lutas com opção de escolha dos lutadores, até que haja um vencedor
 
@@ -9,7 +11,7 @@
 
 * restaurar a vida do lutador vencedor, a cada rodada
 
-* raking de lutadores durante o campeonato
+* ranking de lutadores durante o campeonato
 
 * implementar a faixa de campeão, que pode mudar de dono a cada campeonato
 
