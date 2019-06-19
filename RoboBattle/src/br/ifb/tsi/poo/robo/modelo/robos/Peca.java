@@ -59,7 +59,7 @@ public class Peca {
 
 	@Override
 	public String toString() {
-		return "Peça [A=" + ataque + ", D=" + defesa + ", Dur="+ durabilidade +"]";
+		return "PeÃ§a [A=" + ataque + ", D=" + defesa + ", Dur="+ durabilidade +"]";
 	}
 	
 	public boolean funciona() {

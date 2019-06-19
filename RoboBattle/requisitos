@@ -1,5 +1,6 @@
-
 * criar um campeonato com 10 lutadores com nome ambientado em robôs existentes
+
+* criar mais atributos na classe Peca.java (packet robos)
 
 * os lutadores deverão lutar de forma autônoma, ou seja, sem a interferência do usuário
 

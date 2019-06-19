@@ -168,7 +168,7 @@ public class Robo implements Lutador{
 		if(this.getPernas().funciona()) { pecas +="[P]";} else { pecas +="[X]";}
 		if(this.getBracoEsquerdo().funciona()) { pecas +="[BE]";} else { pecas +="[X]";}
 		if(this.getBracoDireito().funciona()) { pecas +="[BD]";} else { pecas +="[X]";}
-		return "Robo " + nome +": S=" + saude + " A="+this.getAtaque()+" D="+this.getDefesa()+" Peças="+pecas; 
+		return "Robo " + nome +": S=" + saude + " A="+this.getAtaque()+" D="+this.getDefesa()+" PeÃ§as="+pecas; 
 	}
 	
 	

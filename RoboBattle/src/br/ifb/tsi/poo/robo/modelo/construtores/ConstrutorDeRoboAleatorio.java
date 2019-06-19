@@ -19,6 +19,5 @@ public class ConstrutorDeRoboAleatorio extends ConstrutorDeLutador{
 		
 		return new Robo(nome, cabeca, tronco, bracoEsquerdo, bracoDireito, pernas);
 	}
-
 	
 }

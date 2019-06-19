@@ -9,7 +9,7 @@ import br.ifb.tsi.poo.robo.modelo.construtores.ConstrutorDeLutadorInterativoComH
 
 public class Principal {
 	public static void main(String[] args) {
-		ConstrutorDeBatalha cb = new ConstrutorDeBatalha(new ConstrutorDeLutadorInterativoComHabilidade(), new BatalhaComHabilidades());
-		cb.construirBatalha();
+		ConstrutorDeBatalha combate = new ConstrutorDeBatalha(new ConstrutorDeRoboAleatorio(), new BatalhaEmTurnos());
+		combate.construirBatalha();
 	}
 }
