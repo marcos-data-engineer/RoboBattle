@@ -1,10 +1,28 @@
 * criar um campeonato com 10 lutadores com nome ambientado em robôs existentes
+    
+    robo 1 --> Sonny
+
+    robo 2 --> Sophia
+
+    robo 3 --> Ultron
+
+    robo 4 -->  Astro Boy
+
+    robo 5 -->  T-800
+
+    robo 6 --> Wall-e
+    
+    robo 7 --> Baymax
+
+    robo 8 --> C-3PO
+
+    robo 9 --> R2-D2
 
 * criar mais atributos na classe Peca.java (packet robos)
 
 * os lutadores deverão lutar de forma autônoma, ou seja, sem a interferência do usuário
 
-* variar o balanceamento das habilidades de acordo com cada robô
+* A cada luta disputada são gerados aleatóriamente novos valores para o robôs
 
 * criar turnos de lutas com opção de escolha dos lutadores, até que haja um vencedor
 
