@@ -19,6 +19,8 @@
     robo 9 --> R2-D2
 
 * criar mais atributos na classe Peca.java (packet robos)
+    - resistencia
+    - poder
 
 * os lutadores deverão lutar de forma autônoma, ou seja, sem a interferência do usuário
 
