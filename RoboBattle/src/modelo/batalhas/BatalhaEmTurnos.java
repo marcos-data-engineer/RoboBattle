@@ -10,8 +10,8 @@ public class BatalhaEmTurnos extends Batalha{
 		super();
 	}
 
-	public BatalhaEmTurnos(Lutador r1, Lutador r2) {
-		super(r1, r2);
+	public BatalhaEmTurnos(Lutador lutador1, Lutador lutador2) {
+		super(lutador1, lutador2);
 	}
 
 	@Override

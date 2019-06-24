@@ -18,19 +18,24 @@
 
     robo 9 --> R2-D2
 
+    robo 10 --> RoboCop
+
 * criar mais atributos na classe Peca.java (packet robos)
+
     - resistencia
     - poder
 
 * os lutadores deverão lutar de forma autônoma, ou seja, sem a interferência do usuário
 
-* A cada luta disputada são gerados aleatóriamente novos valores para o robôs
+* A cada luta disputada são gerados aleatoriamente novos valores para o robôs
 
 * criar turnos de lutas com opção de escolha dos lutadores, até que haja um vencedor
 
 * um mesmo lutador não pode lutar por duas vezes seguidas
 
-* restaurar a vida do lutador vencedor, a cada rodada
+* zerar o status do robô vencedor após cada luta
+
+* gerar pontuação após o fim de cada luta para geração do ranking
 
 * ranking de lutadores durante o campeonato
 

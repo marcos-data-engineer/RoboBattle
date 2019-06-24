@@ -18,11 +18,11 @@ public class Robo implements Lutador{
 		
 		this.nome = "Null";
 		this.saude = 10;
-		this.cabeca = new Peca(0,0,0,0);
-		this.tronco = new Peca(0,0,0,0);
-		this.pernas = new Peca(0,0,0,0);
-		this.bracoDireito = new Peca(0,0,0,0);
-		this.bracoEsquerdo = new Peca(0,0,0,0);
+		this.cabeca = new Peca(0,0,0,0,0,0);
+		this.tronco = new Peca(0,0,0,0,0,0);
+		this.pernas = new Peca(0,0,0,0,0,0);
+		this.bracoDireito = new Peca(0,0,0,0,0,0);
+		this.bracoEsquerdo = new Peca(0,0,0,0,0,0);
 	}
 
 	public Robo(String nome, Peca cabeca, Peca tronco, Peca bracoEsquerdo, Peca bracoDireito, Peca pernas) {
@@ -168,7 +168,7 @@ public class Robo implements Lutador{
 		if(this.getPernas().funciona()) { pecas +="[P]";} else { pecas +="[X]";}
 		if(this.getBracoEsquerdo().funciona()) { pecas +="[BE]";} else { pecas +="[X]";}
 		if(this.getBracoDireito().funciona()) { pecas +="[BD]";} else { pecas +="[X]";}
-		return "Robo " + nome +": S=" + saude + " A="+this.getAtaque()+" D="+this.getDefesa()+" Peças="+peças; 
+		return "Robo " + nome +": S=" + saude + " A="+this.getAtaque()+" D="+this.getDefesa()+" Peças="+pecas; 
 	}
 	
 }
