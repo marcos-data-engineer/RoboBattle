@@ -13,10 +13,12 @@ public class Principal {
 		
 		//criando os robôs
 		
+
+		//criando os combates
+		
 		ConstrutorDeBatalha combate = new ConstrutorDeBatalha
 		(new ConstrutorDeRoboAleatorio(), new BatalhaEmTurnos());
 		
-
 		combate.construirBatalha();
 	}
 }

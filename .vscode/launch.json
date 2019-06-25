@@ -9,7 +9,8 @@
             "name": "CodeLens (Launch) - Principal",
             "request": "launch",
             "mainClass": "controlador.Principal",
-            "projectName": "RoboBattle"
+            "projectName": "RoboBattle",
+            "console": "integratedTerminal"
         },
         {
             "type": "java",
@@ -22,7 +23,7 @@
             "type": "java",
             "name": "Debug (Launch)-Principal<RoboBattle>",
             "request": "launch",
-            "mainClass": "br.ifb.tsi.poo.robo.controlador.Principal",
+            "mainClass": "RoboBattle.controlador.Principal",
             "projectName": "RoboBattle",
             "console": "integratedTerminal"
         }

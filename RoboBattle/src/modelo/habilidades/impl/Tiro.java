@@ -3,8 +3,7 @@ package modelo.habilidades.impl;
 import modelo.habilidades.HabilidadeComAlvoSimples;
 import modelo.robos.Lutador;
 import modelo.robos.LutadorComHabilidade;
-import modelo.robos.Robo;
-import modelo.robos.RoboComHabilidade;
+//import modelo.robos.Robo;
 
 public class Tiro extends HabilidadeComAlvoSimples{
 

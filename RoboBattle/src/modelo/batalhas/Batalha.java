@@ -2,11 +2,11 @@ package modelo.batalhas;
 
 import modelo.robos.Lutador;
 import modelo.robos.Robo;
-import modelo.construtores.*;
+//import modelo.construtores.*;
 
 public abstract class Batalha {
 	
-	protected Lutador r1;
+	/* protected Lutador r1;
 	protected Lutador r2;
 	protected Lutador r3;
 	protected Lutador r4;
@@ -15,11 +15,13 @@ public abstract class Batalha {
 	protected Lutador r7;
 	protected Lutador r8;
 	protected Lutador r9;
-	protected Lutador r10;
+	protected Lutador r10; */
+	protected Lutador lutador1;
+	protected Lutador lutador2;
 	
 	public Batalha() {
 		super();
-		this.r1 = new Robo();
+		/* this.r1 = new Robo();
 		this.r2 = new Robo();
 		this.r3 = new Robo();
 		this.r4 = new Robo();
@@ -28,7 +30,9 @@ public abstract class Batalha {
 		this.r7 = new Robo();
 		this.r8 = new Robo();
 		this.r9 = new Robo();
-		this.r10 = new Robo();
+		this.r10 = new Robo(); */
+		this.lutador1 = new Robo();
+		this.lutador2 = new Robo();
 	}
 
 
@@ -58,15 +62,15 @@ public abstract class Batalha {
 	
 	public abstract void iniciar();
 
-	public void setR1(Lutador r1) {
-		this.r1 = r1;
+	public void setR1(Lutador lutador1) {
+		this.lutador1 = lutador1;
 	}
 
-	public void setR2(Lutador r2) {
-		this.r2 = r2;
+	public void setR2(Lutador lutador2) {
+		this.lutador2 = lutador2;
 	}
 	
-	public void setR3(Lutador r3) {
+	/* public void setR3(Lutador r3) {
 		this.r3 = r3;
 	}
 
@@ -96,6 +100,6 @@ public abstract class Batalha {
 
 	public void setR10(Lutador r10) {
 		this.r10 = r10;
-	}
+	} */
 	
 }

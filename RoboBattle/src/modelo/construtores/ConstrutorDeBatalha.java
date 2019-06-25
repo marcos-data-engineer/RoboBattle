@@ -2,6 +2,8 @@ package modelo.construtores;
 
 import java.util.Scanner;
 
+//import javax.print.attribute.standard.MediaSize.Other;
+
 //import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 import modelo.batalhas.Batalha;
 //import modelo.batalhas.BatalhaEmTurnos;
@@ -24,127 +26,139 @@ public class ConstrutorDeBatalha {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Lutadores: /n");
+		System.out.println("Escolha um lutador: \n");
 		
-		System.out.println("Digite r1 para Sonny");
-		System.out.println("Digite r2 para Sophia");
-		System.out.println("Digite r3 para Ultron");
-		System.out.println("Digite r4 para AstroBoy");
-		System.out.println("Digite r5 para T800");
-		System.out.println("Digite r6 para Wall-e");
-		System.out.println("Digite r7 para Baymax");
-		System.out.println("Digite r8 para C3PO");
-		System.out.println("Digite r9 para R2D2");
-		System.out.println("Digite r10 para RoboCop");
+		System.out.println("Sonny");
+		System.out.println("Sophia");
+		System.out.println("Ultron");
+		System.out.println("AstroBoy");
+		System.out.println("T800");
+		System.out.println("Wall-e");
+		System.out.println("Baymax");
+		System.out.println("C3PO");
+		System.out.println("R2D2");
+		System.out.println("RoboCop\n");
 
-		System.out.println("Escolha o desafiante: ");
+		System.out.println("Escolha o desafiante: \n");
 		lutador1 = scan.next();
+		lutador1 = lutador1.toUpperCase();
+		System.out.println("O robô escolhido foi: " + lutador1 + "\n");
 
-		System.out.println("Escolha o desafiado: ");
+		System.out.println("Escolha o desafiado: \n");
 		lutador2 = scan.next();
+		lutador2.toUpperCase();
+		System.out.println("O robô escolhido foi: " + lutador2 + "\n");
 
 		switch(lutador1){
-			case "r1":
-				Lutador r1 = construtorDeLutador.lutador1();
-				this.batalha.setR1(r1);
+			case "SONNY":
+				Lutador sonny = construtorDeLutador.lutador1();
+				this.batalha.setR1(sonny);
 				break;
 			
-			case "r2":
-				Lutador r2 = construtorDeLutador.lutador1();
-				this.batalha.setR2(r2);
+			case "SOPHIA":
+				Lutador sophia = construtorDeLutador.lutador1();
+				this.batalha.setR2(sophia);
 				break;
 			
-			case "r3":
-				Lutador r3 = construtorDeLutador.lutador1();
-				this.batalha.setR3(r3);
+			case "ULTRON":
+				Lutador ultron = construtorDeLutador.lutador1();
+				this.batalha.setR3(ultron);
 				break;
 
-			case "r4":
-				Lutador r4 = construtorDeLutador.lutador1();
-				this.batalha.setR4(r4);
+			case "ASTROBOY":
+				Lutador astroboy = construtorDeLutador.lutador1();
+				this.batalha.setR4(astroboy);
 				break;
 			
-			case "r5":
-				Lutador r5 = construtorDeLutador.lutador1();
-				this.batalha.setR5(r5);
+			case "T800":
+				Lutador t800 = construtorDeLutador.lutador1();
+				this.batalha.setR5(t800);
 				break;
 			
-			case "r6":
-				Lutador r6 = construtorDeLutador.lutador1();
-				this.batalha.setR6(r6);
+			case "WALL-E":
+				Lutador walle = construtorDeLutador.lutador1();
+				this.batalha.setR6(walle);
 				break;
 
-			case "r7":
-				Lutador r7 = construtorDeLutador.lutador1();
-				this.batalha.setR7(r7);
+			case "BAYMAX":
+				Lutador baymax = construtorDeLutador.lutador1();
+				this.batalha.setR7(baymax);
 				break;
 
-			case "r8":
-				Lutador r8 = construtorDeLutador.lutador1();
-				this.batalha.setR8(r8);
+			case "C3PO":
+				Lutador c3po = construtorDeLutador.lutador1();
+				this.batalha.setR8(c3po);
 				break;
 
-			case "r9":
-				Lutador r9 = construtorDeLutador.lutador1();
-				this.batalha.setR9(r9);
+			case "R2D2":
+				Lutador r2d2 = construtorDeLutador.lutador1();
+				this.batalha.setR9(r2d2);
 				break;
 
-			case "r10":
-				Lutador r10 = construtorDeLutador.lutador1();
-				this.batalha.setR10(r10);
+			case "ROBOCOP":
+				Lutador robocop = construtorDeLutador.lutador1();
+				this.batalha.setR10(robocop);
+				break;
+
+			default:
+				System.out.println("Digite o nome corretamente!");
 				break;
 
 		};
 
 		switch(lutador2){
-			case "r1":
-				Lutador r1 = construtorDeLutador.lutador1();
-				this.batalha.setR1(r1);
+			case "SONNY":
+				Lutador sonny = construtorDeLutador.lutador2();
+				this.batalha.setR1(sonny);
 				break;
 			
-			case "r2":
-				Lutador r2 = construtorDeLutador.lutador1();
-				this.batalha.setR2(r2);
+			case "SOPHIA":
+				Lutador sophia = construtorDeLutador.lutador2();
+				this.batalha.setR2(sophia);
 				break;
 			
-			case "r3":
-				Lutador r3 = construtorDeLutador.lutador1();
-				this.batalha.setR3(r3);
+			case "ULTRON":
+				Lutador ultron = construtorDeLutador.lutador2();
+				this.batalha.setR3(ultron);
 				break;
 
-			case "r4":
-				Lutador r4 = construtorDeLutador.lutador1();
-				this.batalha.setR4(r4);
+			case "ASTROBOY":
+				Lutador astroboy = construtorDeLutador.lutador2();
+				this.batalha.setR4(astroboy);
 				break;
 			
-			case "r5":
-				Lutador r5 = construtorDeLutador.lutador1();
-				this.batalha.setR5(r5);
+			case "T800":
+				Lutador t800 = construtorDeLutador.lutador2();
+				this.batalha.setR5(t800);
 				break;
 			
-			case "r6":
-				Lutador r6 = construtorDeLutador.lutador1();
-				this.batalha.setR6(r6);
+			case "WALL-E":
+				Lutador walle = construtorDeLutador.lutador2();
+				this.batalha.setR6(walle);
 				break;
 
-			case "r7":
-				Lutador r7 = construtorDeLutador.lutador1();
-				this.batalha.setR7(r7);
+			case "BAYMAX":
+				Lutador baymax = construtorDeLutador.lutador2();
+				this.batalha.setR7(baymax);
 				break;
 
-			case "r8":
-				Lutador r8 = construtorDeLutador.lutador1();
-				this.batalha.setR8(r8);
+			case "C3PO":
+				Lutador c3po = construtorDeLutador.lutador2();
+				this.batalha.setR8(c3po);
 				break;
 
-			case "r9":
-				Lutador r9 = construtorDeLutador.lutador1();
-				this.batalha.setR9(r9);
+			case "R2D2":
+				Lutador r2d2 = construtorDeLutador.lutador2();
+				this.batalha.setR9(r2d2);
 				break;
 
-			case "r10":
-				Lutador r10 = construtorDeLutador.lutador1();
-				this.batalha.setR10(r10);
+			case "ROBOCOP":
+				Lutador robocop = construtorDeLutador.lutador2();
+				this.batalha.setR10(robocop);
+				break;
+
+			default:
+				System.out.println("Digite o nome corretamente!");
 				break;
 
 		};

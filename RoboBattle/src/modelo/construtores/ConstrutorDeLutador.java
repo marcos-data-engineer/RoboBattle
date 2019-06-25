@@ -17,7 +17,7 @@ public abstract class ConstrutorDeLutador {
 		return new Robo();
 	}
 
-	public Lutador lutador3(){
+	/* public Lutador lutador3(){
 		return new Robo();
 	}
 
@@ -47,7 +47,7 @@ public abstract class ConstrutorDeLutador {
 
 	public Lutador lutador10(){
 		return new Robo();
-	}
+	} */
 
 
 
