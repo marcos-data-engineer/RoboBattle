@@ -6,12 +6,19 @@ import modelo.robos.Lutador;
 
 public class BatalhaEmTurnos extends Batalha{
 	
+	protected Lutador lutador1;
+	protected Lutador lutador2;
+	
 	public BatalhaEmTurnos() {
 		super();
+//		this.lutador1 = new Robo();
+//		this.lutador2 = new Robo();
 	}
 
 	public BatalhaEmTurnos(Lutador lutador1, Lutador lutador2) {
 		super(lutador1, lutador2);
+		//this.lutador1 = lutador1;
+		//this.lutador2 = lutador2;
 	}
 
 	@Override

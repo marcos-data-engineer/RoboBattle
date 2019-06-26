@@ -9,45 +9,45 @@ public abstract class ConstrutorDeLutador {
 		return new Robo();
 	} */
 
-	public Lutador lutador1(){
+	public Lutador robo1(){
 		return new Robo();
 	}
 
-	public Lutador lutador2(){
+	public Lutador robo2(){
 		return new Robo();
 	}
 
-	/* public Lutador lutador3(){
+	public Lutador robo3(){
 		return new Robo();
 	}
 
-	public Lutador lutador4(){
+	public Lutador robo4(){
 		return new Robo();
 	}
 
-	public Lutador lutador5(){
+	public Lutador robo5(){
 		return new Robo();
 	}
 
-	public Lutador lutador6(){
+	public Lutador robo6(){
 		return new Robo();
 	}
 
-	public Lutador lutador7(){
+	public Lutador robo7(){
 		return new Robo();
 	}
 
-	public Lutador lutador8(){
+	public Lutador robo8(){
 		return new Robo();
 	}
 
-	public Lutador lutador9(){
+	public Lutador robo9(){
 		return new Robo();
 	}
 
-	public Lutador lutador10(){
+	public Lutador robo10(){
 		return new Robo();
-	} */
+	} 
 
 
 
