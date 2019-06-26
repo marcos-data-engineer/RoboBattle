@@ -13,8 +13,8 @@ import modelo.robos.Lutador;
 public class ConstrutorDeBatalha {
 	private ConstrutorDeLutador construtorDeLutador;
 	private Batalha batalha;
-	protected String lutador1;
-	protected String lutador2;
+	//protected String lutador1;
+	//protected String lutador2;
 		
 	public ConstrutorDeBatalha(ConstrutorDeLutador construtorDeRobo, Batalha batalha) {
 		super();
@@ -40,24 +40,132 @@ public class ConstrutorDeBatalha {
 		System.out.println("RoboCop\n");
 
 		System.out.println("Escolha o desafiante: \n");
-		lutador1 = scan.next();
-		lutador1 = lutador1.toUpperCase();
-		System.out.println("O robô escolhido foi: " + lutador1 + "\n");
+		String escolha1 = scan.next();
+		escolha1 = escolha1.toUpperCase();
+		System.out.println("O robô escolhido foi: " + escolha1 + "\n");
 
 		System.out.println("Escolha o desafiado: \n");
-		lutador2 = scan.next();
-		lutador2 = lutador2.toUpperCase();
-		System.out.println("O robô escolhido foi: " + lutador2 + "\n");
+		String escolha2 = scan.next();
+		escolha2 = escolha2.toUpperCase();
+		System.out.println("O robô escolhido foi: " + escolha2 + "\n");
 
-		switch(lutador1){
+		if(escolha1 == "SONNY"){
+			Lutador lutador1 = construtorDeLutador.robo1();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "SOPHIA"){
+			Lutador lutador1 = construtorDeLutador.robo2();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "ULTRON"){
+			Lutador lutador1 = construtorDeLutador.robo3();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "ASTROBOY"){
+			Lutador lutador1 = construtorDeLutador.robo4();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "T800"){
+			Lutador lutador1 = construtorDeLutador.robo5();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "WALL-E"){
+			Lutador lutador1 = construtorDeLutador.robo6();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "BAYMAX"){
+			Lutador lutador1 = construtorDeLutador.robo7();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "C3PO"){
+			Lutador lutador1 = construtorDeLutador.robo8();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "R2D2"){
+			Lutador lutador1 = construtorDeLutador.robo9();
+			this.batalha.setR1(lutador1);
+		}
+
+		else if(lutador1 == "ROBOCOP"){
+			Lutador lutador1 = construtorDeLutador.robo10();
+			this.batalha.setR1(lutador1);
+		} 
+		
+		/* else{
+			System.out.println("Digite o nome corretamente!");
+		} */
+
+		if(lutador2 == "SONNY"){
+			Lutador lutador2 = construtorDeLutador.robo1();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "SOPHIA"){
+			Lutador lutador2 = construtorDeLutador.robo2();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "ULTRON"){
+			Lutador lutador2 = construtorDeLutador.robo3();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "ASTROBOY"){
+			Lutador lutador2 = construtorDeLutador.robo4();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "T800"){
+			Lutador lutador2 = construtorDeLutador.robo5();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "WALL-E"){
+			Lutador lutador2 = construtorDeLutador.robo6();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "BAYMAX"){
+			Lutador lutador2 = construtorDeLutador.robo7();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "C3PO"){
+			Lutador lutador2 = construtorDeLutador.robo8();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "R2D2"){
+			Lutador lutador2 = construtorDeLutador.robo9();
+			this.batalha.setR2(lutador2);
+		}
+
+		else if(lutador2 == "ROBOCOP"){
+			Lutador lutador2 = construtorDeLutador.robo10();
+			this.batalha.setR2(lutador2);
+		} 
+		
+		/* else{
+			System.out.println("Digite o nome corretamente!");
+		} */
+
+		/* switch(lutador1){
 			case "SONNY":
-				Lutador sonny = construtorDeLutador.robo1();
-				this.batalha.setR1(sonny);
+				Lutador lutador1 = construtorDeLutador.robo1();
+				this.batalha.setR1(lutador1);
 				break;
 			
 			case "SOPHIA":
-				Lutador sophia = construtorDeLutador.robo2();
-				this.batalha.setR2(sophia);
+				Lutador lutador1 = construtorDeLutador.robo2();
+				this.batalha.setR2(lutador1);
 				break;
 			
 			case "ULTRON":
@@ -160,7 +268,7 @@ public class ConstrutorDeBatalha {
 		default:
 			System.out.println("Digite o nome corretamente!");
 			break;
-		};
+		}; */
 
 		batalha.iniciar();
 

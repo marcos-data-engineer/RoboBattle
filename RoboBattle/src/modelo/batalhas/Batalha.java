@@ -1,36 +1,64 @@
 package modelo.batalhas;
 
-import modelo.robos.Lutador;
-import modelo.robos.Robo;
+import modelo.robos.*;
+//import modelo.construtores.*;
 
 public abstract class Batalha {
 	
 	protected Lutador r1;
 	protected Lutador r2;
-	protected Lutador r3;
-	protected Lutador r4;
-	protected Lutador r5;
-	protected Lutador r6;
-	protected Lutador r7;
-	protected Lutador r8;
-	protected Lutador r9;
-	protected Lutador r10;
-		
+	
 	public Batalha() {
 		super();
 		this.r1 = new Robo();
 		this.r2 = new Robo();
-		this.r3 = new Robo();
-		this.r4 = new Robo();
-		this.r5 = new Robo();
-		this.r6 = new Robo();
-		this.r7 = new Robo();
-		this.r8 = new Robo();
-		this.r9 = new Robo();
-		this.r10 = new Robo();
 	}
 
-	public Batalha(Lutador r1, Lutador r2, Lutador r3,
+	public Batalha(Lutador r1, Lutador r2) {
+		super();
+		this.r1 = r1;
+		this.r2 = r2;
+	}
+
+	/* protected Lutador robo1;
+	protected Lutador robo2;
+	protected Lutador robo3;
+	protected Lutador robo4;
+	protected Lutador robo5;
+	protected Lutador robo6;
+	protected Lutador robo7;
+	protected Lutador robo8;
+	protected Lutador robo9;
+	protected Lutador robo10; */
+		
+	/* public Batalha() {
+		super();
+		this.robo1 = new Robo();
+		this.robo2 = new Robo();
+		this.robo3 = new Robo();
+		this.robo4 = new Robo();
+		this.robo5 = new Robo();
+		this.robo6 = new Robo();
+		this.robo7 = new Robo();
+		this.robo8 = new Robo();
+		this.robo9 = new Robo();
+		this.robo10 = new Robo();
+	}
+ */
+
+	/* public Batalha(){
+		super();
+		this.lutador1 = new Robo();
+		this.lutador2 = new Robo();
+	}
+
+	public Batalha(Lutador lutador1, Lutador lutador2){
+		super();
+		this.lutador1 = lutador1;
+		this.lutador2 = lutador2;
+	} */
+
+	/* public Batalha(Lutador r1, Lutador r2, Lutador r3,
 				   Lutador r4, Lutador r5, Lutador r6,
 				   Lutador r7, Lutador r8, Lutador r9,
 				   Lutador r10){
@@ -46,12 +74,20 @@ public abstract class Batalha {
 		this.r9 = r9;
 		this.r10 = r10;
 						
-	}
+	} */
 		
 	public abstract void iniciar();
 
 	public void setR1(Lutador r1) {
 		this.r1 = r1;
+	}
+
+	public void setR2(Lutador r2) {
+		this.r2 = r2;
+	}
+
+	/* public void setR1(Lutador lutador1) {
+		this.lutador1 = lutador1;
 	}
 
 	public void setR2(Lutador r2) {
@@ -88,6 +124,6 @@ public abstract class Batalha {
 
 	public void setR10(Lutador r10) {
 		this.r10 = r10;
-	}
+	} */
 	
 }
