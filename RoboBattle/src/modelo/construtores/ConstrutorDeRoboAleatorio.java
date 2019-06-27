@@ -21,6 +21,18 @@ public class ConstrutorDeRoboAleatorio extends ConstrutorDeLutador{
 		
 		return new Robo(nome, cabeca, tronco, bracoEsquerdo, bracoDireito, pernas);
 	} */
+	
+	
+	public Lutador construirLutador(String nome){
+		Random rand = new Random();
+		Peca cabeca = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
+		Peca tronco = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
+		Peca pernas = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
+		Peca bracoEsquerdo = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
+		Peca bracoDireito = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
+		
+		return new Robo(nome, cabeca, tronco, bracoEsquerdo, bracoDireito, pernas);
+	}
 
 	public Lutador robo1(){
 		Random rand = new Random();
@@ -30,7 +42,7 @@ public class ConstrutorDeRoboAleatorio extends ConstrutorDeLutador{
 		Peca pernas = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
 		Peca bracoEsquerdo = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
 		Peca bracoDireito = new Peca(rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10), rand.nextInt(10));
-
+		
 		return new Robo(nome, cabeca, tronco, bracoEsquerdo, bracoDireito, pernas);
 	}
 
