@@ -54,47 +54,47 @@ public class ConstrutorDeBatalha {
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "SOPHIA"){
+		else if(escolha1 == "SOPHIA"){
 			Lutador lutador1 = construtorDeLutador.robo2();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "ULTRON"){
+		else if(escolha1 == "ULTRON"){
 			Lutador lutador1 = construtorDeLutador.robo3();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "ASTROBOY"){
+		else if(escolha1 == "ASTROBOY"){
 			Lutador lutador1 = construtorDeLutador.robo4();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "T800"){
+		else if(escolha1 == "T800"){
 			Lutador lutador1 = construtorDeLutador.robo5();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "WALL-E"){
+		else if(escolha1 == "WALL-E"){
 			Lutador lutador1 = construtorDeLutador.robo6();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "BAYMAX"){
+		else if(escolha1 == "BAYMAX"){
 			Lutador lutador1 = construtorDeLutador.robo7();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "C3PO"){
+		else if(escolha1 == "C3PO"){
 			Lutador lutador1 = construtorDeLutador.robo8();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "R2D2"){
+		else if(escolha1 == "R2D2"){
 			Lutador lutador1 = construtorDeLutador.robo9();
 			this.batalha.setR1(lutador1);
 		}
 
-		else if(lutador1 == "ROBOCOP"){
+		else if(escolha1 == "ROBOCOP"){
 			Lutador lutador1 = construtorDeLutador.robo10();
 			this.batalha.setR1(lutador1);
 		} 
@@ -103,52 +103,52 @@ public class ConstrutorDeBatalha {
 			System.out.println("Digite o nome corretamente!");
 		} */
 
-		if(lutador2 == "SONNY"){
+		if(escolha2 == "SONNY"){
 			Lutador lutador2 = construtorDeLutador.robo1();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "SOPHIA"){
+		else if(escolha2 == "SOPHIA"){
 			Lutador lutador2 = construtorDeLutador.robo2();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "ULTRON"){
+		else if(escolha2 == "ULTRON"){
 			Lutador lutador2 = construtorDeLutador.robo3();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "ASTROBOY"){
+		else if(escolha2 == "ASTROBOY"){
 			Lutador lutador2 = construtorDeLutador.robo4();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "T800"){
+		else if(escolha2 == "T800"){
 			Lutador lutador2 = construtorDeLutador.robo5();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "WALL-E"){
+		else if(escolha2 == "WALL-E"){
 			Lutador lutador2 = construtorDeLutador.robo6();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "BAYMAX"){
+		else if(escolha2 == "BAYMAX"){
 			Lutador lutador2 = construtorDeLutador.robo7();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "C3PO"){
+		else if(escolha2 == "C3PO"){
 			Lutador lutador2 = construtorDeLutador.robo8();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "R2D2"){
+		else if(escolha2 == "R2D2"){
 			Lutador lutador2 = construtorDeLutador.robo9();
 			this.batalha.setR2(lutador2);
 		}
 
-		else if(lutador2 == "ROBOCOP"){
+		else if(escolha2 == "ROBOCOP"){
 			Lutador lutador2 = construtorDeLutador.robo10();
 			this.batalha.setR2(lutador2);
 		} 

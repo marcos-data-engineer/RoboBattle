@@ -4,28 +4,28 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Principal",
-            "request": "launch",
-            "mainClass": "controlador.Principal",
-            "projectName": "RoboBattle",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "mainClass": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-Principal<RoboBattle>",
-            "request": "launch",
-            "mainClass": "RoboBattle.controlador.Principal",
-            "projectName": "RoboBattle",
-            "console": "integratedTerminal"
-        }
+    {
+    "type": "java",
+    "name": "CodeLens (Launch) - Principal",
+    "request": "launch",
+    "mainClass": "controlador.Principal",
+    "projectName": "RoboBattle",
+    "console": "integratedTerminal"
+    },
+    {
+    "type": "java",
+    "name": "Debug (Launch) - Current File",
+    "request": "launch",
+    "mainClass": "${file}",
+    "console": "integratedTerminal"
+    },
+    {
+    "type": "java",
+    "name": "Debug (Launch)-Principal<RoboBattle>",
+    "request": "launch",
+    "mainClass": "RoboBattle.controlador.Principal",
+    "projectName": "RoboBattle",
+    "console": "integratedTerminal"
+    }
     ]
-}
+   }

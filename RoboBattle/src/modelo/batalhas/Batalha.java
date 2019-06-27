@@ -5,19 +5,29 @@ import modelo.robos.*;
 
 public abstract class Batalha {
 	
-	protected Lutador r1;
-	protected Lutador r2;
+	protected Lutador lutador1;
+	protected Lutador lutador2;
 	
 	public Batalha() {
 		super();
-		this.r1 = new Robo();
-		this.r2 = new Robo();
+		this.lutador1 = new Robo();
+		this.lutador2 = new Robo();
 	}
 
-	public Batalha(Lutador r1, Lutador r2) {
+	public Batalha(Lutador lutador1, Lutador lutador2) {
 		super();
-		this.r1 = r1;
-		this.r2 = r2;
+		this.lutador1 = lutador1;
+		this.lutador2 = lutador2;
+	}
+
+	public abstract void iniciar();
+
+	public void setR1(Lutador lutador1) {
+		this.lutador1 = lutador1;
+	}
+
+	public void setR2(Lutador lutador2) {
+		this.lutador2 = lutador2;
 	}
 
 	/* protected Lutador robo1;
@@ -76,16 +86,6 @@ public abstract class Batalha {
 						
 	} */
 		
-	public abstract void iniciar();
-
-	public void setR1(Lutador r1) {
-		this.r1 = r1;
-	}
-
-	public void setR2(Lutador r2) {
-		this.r2 = r2;
-	}
-
 	/* public void setR1(Lutador lutador1) {
 		this.lutador1 = lutador1;
 	}
