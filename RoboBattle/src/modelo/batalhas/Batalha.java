@@ -7,11 +7,27 @@ public abstract class Batalha {
 	
 	protected Lutador lutador1;
 	protected Lutador lutador2;
+	protected Lutador lutador3;
+	protected Lutador lutador4;
+	protected Lutador lutador5;
+	protected Lutador lutador6;
+	protected Lutador lutador7;
+	protected Lutador lutador8;
+	protected Lutador lutador9;
+	protected Lutador lutador10;
 	
 	public Batalha() {
 		super();
 		this.lutador1 = new Robo();
 		this.lutador2 = new Robo();
+		this.lutador3 = new Robo();
+		this.lutador4 = new Robo();
+		this.lutador5 = new Robo();
+		this.lutador6 = new Robo();
+		this.lutador7 = new Robo();
+		this.lutador8 = new Robo();
+		this.lutador9 = new Robo();
+		this.lutador10 = new Robo();
 	}
 
 	public Batalha(Lutador lutador1, Lutador lutador2) {
@@ -20,7 +36,15 @@ public abstract class Batalha {
 		this.lutador2 = lutador2;
 	}
 
+	public void Batalha2(Lutador lutador3, Lutador lutador4) {
+		//super();
+		this.lutador3 = lutador3;
+		this.lutador4 = lutador4;
+	}
+
 	public abstract void iniciar();
+	
+	public abstract void iniciar2();
 
 	public void setR1(Lutador lutador1) {
 		this.lutador1 = lutador1;
@@ -28,6 +52,14 @@ public abstract class Batalha {
 
 	public void setR2(Lutador lutador2) {
 		this.lutador2 = lutador2;
+	}
+
+	public void setR3(Lutador lutador3) {
+		this.lutador3 = lutador3;
+	}
+
+	public void setR4(Lutador lutador4) {
+		this.lutador4 = lutador4;
 	}
 
 	/* protected Lutador robo1;

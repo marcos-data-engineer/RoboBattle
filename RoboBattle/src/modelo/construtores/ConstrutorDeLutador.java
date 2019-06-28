@@ -9,6 +9,6 @@ public abstract class ConstrutorDeLutador {
 		return new Robo();
 	}
 	
-	public abstract Lutador construirLutador(String nome) ;
+	public abstract Lutador construirLutador(String nome);
 	
 }
