@@ -1,7 +1,6 @@
 package modelo.batalhas;
 
 import modelo.robos.*;
-//import modelo.construtores.*;
 
 public abstract class Batalha {
 	
@@ -13,8 +12,14 @@ public abstract class Batalha {
 	protected Lutador lutador6;
 	protected Lutador lutador7;
 	protected Lutador lutador8;
-	protected Lutador lutador9;
-	protected Lutador lutador10;
+	// protected Lutador lutador9;
+	// protected Lutador lutador10;
+	protected Lutador vencedorLuta1;
+	protected Lutador vencedorLuta2;
+	protected Lutador vencedorLuta3;
+	protected Lutador vencedorLuta4;
+	protected Lutador vencedorSemifinal1;
+	protected Lutador vencedorSemifinal2;
 	
 	public Batalha() {
 		super();
@@ -26,8 +31,6 @@ public abstract class Batalha {
 		this.lutador6 = new Robo();
 		this.lutador7 = new Robo();
 		this.lutador8 = new Robo();
-		this.lutador9 = new Robo();
-		this.lutador10 = new Robo();
 	}
 
 	public Batalha(Lutador lutador1, Lutador lutador2) {
@@ -37,14 +40,48 @@ public abstract class Batalha {
 	}
 
 	public void Batalha2(Lutador lutador3, Lutador lutador4) {
-		//super();
 		this.lutador3 = lutador3;
 		this.lutador4 = lutador4;
+	}
+
+	public void Batalha3(Lutador lutador5, Lutador lutador6) {
+		this.lutador5 = lutador5;
+		this.lutador6 = lutador6;
+	}
+
+	public void Batalha4(Lutador lutador7, Lutador lutador8) {
+		this.lutador7 = lutador7;
+		this.lutador8 = lutador8;
+	}
+
+	public void Batalha5(Lutador vencedorLuta1, Lutador vencedorLuta2) {
+		this.vencedorLuta1 = vencedorLuta1;
+		this.vencedorLuta2 = vencedorLuta2;
+	}
+
+	public void Batalha6(Lutador vencedorLuta3, Lutador vencedorLuta4) {
+		this.vencedorLuta3 = vencedorLuta3;
+		this.vencedorLuta4 = vencedorLuta4;
+	}
+
+	public void Batalha7(Lutador vencedorSemfinal1, Lutador vencedorSemifinal2) {
+		this.vencedorSemifinal1 = vencedorSemfinal1;
+		this.vencedorSemifinal2 = vencedorSemifinal2;
 	}
 
 	public abstract void iniciar();
 	
 	public abstract void iniciar2();
+
+	public abstract void iniciar3();
+
+	public abstract void iniciar4();
+
+	public abstract void iniciar5();
+
+	public abstract void iniciar6();
+
+	public abstract void iniciar7();
 
 	public void setR1(Lutador lutador1) {
 		this.lutador1 = lutador1;
@@ -62,100 +99,20 @@ public abstract class Batalha {
 		this.lutador4 = lutador4;
 	}
 
-	/* protected Lutador robo1;
-	protected Lutador robo2;
-	protected Lutador robo3;
-	protected Lutador robo4;
-	protected Lutador robo5;
-	protected Lutador robo6;
-	protected Lutador robo7;
-	protected Lutador robo8;
-	protected Lutador robo9;
-	protected Lutador robo10; */
-		
-	/* public Batalha() {
-		super();
-		this.robo1 = new Robo();
-		this.robo2 = new Robo();
-		this.robo3 = new Robo();
-		this.robo4 = new Robo();
-		this.robo5 = new Robo();
-		this.robo6 = new Robo();
-		this.robo7 = new Robo();
-		this.robo8 = new Robo();
-		this.robo9 = new Robo();
-		this.robo10 = new Robo();
-	}
- */
-
-	/* public Batalha(){
-		super();
-		this.lutador1 = new Robo();
-		this.lutador2 = new Robo();
+	public void setR5(Lutador lutador5) {
+		this.lutador5 = lutador5;
 	}
 
-	public Batalha(Lutador lutador1, Lutador lutador2){
-		super();
-		this.lutador1 = lutador1;
-		this.lutador2 = lutador2;
-	} */
-
-	/* public Batalha(Lutador r1, Lutador r2, Lutador r3,
-				   Lutador r4, Lutador r5, Lutador r6,
-				   Lutador r7, Lutador r8, Lutador r9,
-				   Lutador r10){
-		super();
-		this.r1 = r1;
-		this.r2 = r2;
-		this.r3 = r3;
-		this.r4 = r4;
-		this.r5 = r5;
-		this.r6 = r6;
-		this.r7 = r7;
-		this.r8 = r8;
-		this.r9 = r9;
-		this.r10 = r10;
-						
-	} */
-		
-	/* public void setR1(Lutador lutador1) {
-		this.lutador1 = lutador1;
-	}
-
-	public void setR2(Lutador r2) {
-		this.r2 = r2;
+	public void setR6(Lutador lutador6) {
+		this.lutador6 = lutador6;
 	}
 	
-	public void setR3(Lutador r3) {
-		this.r3 = r3;
+	public void setR7(Lutador lutador7) {
+		this.lutador7 = lutador7;
 	}
 
-	public void setR4(Lutador r4) {
-		this.r4 = r4;
+	public void setR8(Lutador lutador8) {
+		this.lutador8 = lutador8;
 	}
 
-	public void setR5(Lutador r5) {
-		this.r5 = r5;
-	}
-	
-	public void setR6(Lutador r6) {
-		this.r6 = r6;
-	}
-
-	public void setR7(Lutador r7) {
-		this.r7 = r7;
-	}
-
-	public void setR8(Lutador r8) {
-		this.r8 = r8;
-	}
-
-	public void setR9(Lutador r9) {
-		this.r9 = r9;
-	}
-
-	public void setR10(Lutador r10) {
-		this.r10 = r10;
-	} */
-	
 }
