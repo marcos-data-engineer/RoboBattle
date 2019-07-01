@@ -4,9 +4,13 @@ import modelo.batalhas.Batalha;
 import modelo.robos.Lutador;
 
 public class ConstrutorDeBatalha {
+	/**
+	 *
+	 */
+
 	private ConstrutorDeLutador construtorDeLutador;
 	private Batalha batalha;
-			
+
 	public ConstrutorDeBatalha(ConstrutorDeLutador construtorDeRobo, Batalha batalha) {
 		super();
 		this.construtorDeLutador = construtorDeRobo;
@@ -15,7 +19,6 @@ public class ConstrutorDeBatalha {
 
 	public void construirBatalha() {
 				
-		// criando os lutadores
 			Lutador lutador1 = construtorDeLutador.construirLutador("Sonny");
 			this.batalha.setR1(lutador1);
 				
@@ -28,16 +31,16 @@ public class ConstrutorDeBatalha {
 			Lutador lutador4 = construtorDeLutador.construirLutador("AstroBoy");
 			this.batalha.setR4(lutador4);
 
-			 Lutador lutador5 = construtorDeLutador.construirLutador("T-800");
+			 Lutador lutador5 = construtorDeLutador.construirLutador("T800");
 			 this.batalha.setR5(lutador5);
 
-			 Lutador lutador6 = construtorDeLutador.construirLutador("Wall-e");
+			 Lutador lutador6 = construtorDeLutador.construirLutador("WallE");
 			 this.batalha.setR6(lutador6);
 		
 			 Lutador lutador7 = construtorDeLutador.construirLutador("Baymax");
 			 this.batalha.setR7(lutador7);
 
-			 Lutador lutador8 = construtorDeLutador.construirLutador("C-3PO");
+			 Lutador lutador8 = construtorDeLutador.construirLutador("C3PO");
 			 this.batalha.setR8(lutador8);
 			
 		batalha.iniciar();

@@ -12,8 +12,6 @@ public abstract class Batalha {
 	protected Lutador lutador6;
 	protected Lutador lutador7;
 	protected Lutador lutador8;
-	// protected Lutador lutador9;
-	// protected Lutador lutador10;
 	protected Lutador vencedorLuta1;
 	protected Lutador vencedorLuta2;
 	protected Lutador vencedorLuta3;
@@ -32,41 +30,11 @@ public abstract class Batalha {
 		this.lutador7 = new Robo();
 		this.lutador8 = new Robo();
 	}
-
+	
 	public Batalha(Lutador lutador1, Lutador lutador2) {
 		super();
 		this.lutador1 = lutador1;
 		this.lutador2 = lutador2;
-	}
-
-	public void Batalha2(Lutador lutador3, Lutador lutador4) {
-		this.lutador3 = lutador3;
-		this.lutador4 = lutador4;
-	}
-
-	public void Batalha3(Lutador lutador5, Lutador lutador6) {
-		this.lutador5 = lutador5;
-		this.lutador6 = lutador6;
-	}
-
-	public void Batalha4(Lutador lutador7, Lutador lutador8) {
-		this.lutador7 = lutador7;
-		this.lutador8 = lutador8;
-	}
-
-	public void Batalha5(Lutador vencedorLuta1, Lutador vencedorLuta2) {
-		this.vencedorLuta1 = vencedorLuta1;
-		this.vencedorLuta2 = vencedorLuta2;
-	}
-
-	public void Batalha6(Lutador vencedorLuta3, Lutador vencedorLuta4) {
-		this.vencedorLuta3 = vencedorLuta3;
-		this.vencedorLuta4 = vencedorLuta4;
-	}
-
-	public void Batalha7(Lutador vencedorSemfinal1, Lutador vencedorSemifinal2) {
-		this.vencedorSemifinal1 = vencedorSemfinal1;
-		this.vencedorSemifinal2 = vencedorSemifinal2;
 	}
 
 	public abstract void iniciar();
