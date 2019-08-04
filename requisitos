@@ -1,0 +1,35 @@
+* criar um campeonato com 8 lutadores com nomes ambientados em robôs existentes na história
+    
+    robo 1 --> Sonny
+
+    robo 2 --> Sophia
+
+    robo 3 --> Ultron
+
+    robo 4 -->  Astro Boy
+
+    robo 5 -->  T-800
+
+    robo 6 --> Wall-e
+    
+    robo 7 --> Baymax
+
+    robo 8 --> C-3PO
+
+* os lutadores deverão lutar de forma autônoma, ou seja, sem a interferência do usuário
+
+* Os robôs permanecem com os mesmos status de que terminaram a última luta,
+ou seja, vão "quebrando" durante as lutas.
+
+* São 4 lutas na primeira fase, depois duas semifinais e uma grande final
+
+* iremos rodar o JOGO para demonstrar o funcionamento do campeonato
+
+* após iremos dar uma passada rápida pelo jogo explicando os pontos principais
+
+* por último uma rápida passada pelas classes
+
+
+
+
+
